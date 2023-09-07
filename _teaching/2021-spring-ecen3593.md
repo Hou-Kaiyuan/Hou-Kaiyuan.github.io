@@ -2,9 +2,9 @@
 title: "Computer Organization"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2020-fall-ecen3593
+permalink: /teaching/2021-spring-ecen3593
 venue: "University of Colorado Boulder, Department of Electrical Engineering"
-date: 2020-09-01
+date: 2021-02-01
 location: "Boulder, CO"
 ---
 
