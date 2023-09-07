@@ -8,8 +8,6 @@ date: 2020-02-01
 location: "Boulder, CO"
 ---
 
-Course description:
-======
 Introduces linear circuit analysis and design, including OP-Amps. Presents DC networks, including node and mesh analysis with controlled sources. Analysis of RL and RC circuits for both transient and sinusoidal steady-state responses using phasors. Laplace transform techniques, transfer functions, frequency response, Bode diagrams, resonant circuits, Fourier series expansions, and convolution.
 
 Responsibility:
