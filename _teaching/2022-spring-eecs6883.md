@@ -10,6 +10,8 @@ location: "New York, NY"
 
 
 This course covers blockchain fundamentals to advanced topics, including Bitcoin, Ethereum, smart contracts, DeFi, and NFTs. Students will gain a comprehensive understanding of blockchain's wide-ranging applications and industry impact.
+
+
 Responsibility:
 ======
 Worked with Professor [Chong Li](https://www.ee.columbia.edu/content/chong-li). Held office hours, graded midterm exam. 
