@@ -18,21 +18,22 @@ Education
 
 <b>Columbia University</b>
 
-Ph.D. Electrical Engineering | Sept 2021-present
-M.S. Electrical Engineering | Sept 2021-May 2023
+Ph.D. Electrical Engineering  \| Sept 2021-present
+
+M.S. Electrical Engineering  \| Sept 2021-May 2023
 
 <b>University of Colorado Boulder</b>
 
-B.S. Electrical and Computer Engineering | Sept 2017-May 2021
+B.S. Electrical and Computer Engineering  \| Sept 2017-May 2021
 
 
 Research Experience
 ---
 <b>Columbia University, New York, NY</b>
 
-Columbia Intelligent and Connected Systems Lab (ICSL) | Sept 2021 – Present
+Columbia Intelligent and Connected Systems Lab (ICSL) \| Sept 2021 – Present
 
 
-<b>University of Colorado Boulder, Boulder ,CO</b>
+<b>University of Colorado Boulder, Boulder, CO</b>
 
-Laboratory for Atmospheric and Space Physics (LASP) | Sept 2020 - May 2021
+Laboratory for Atmospheric and Space Physics (LASP) \| Sept 2020 - May 2021
