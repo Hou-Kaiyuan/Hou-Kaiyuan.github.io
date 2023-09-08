@@ -9,5 +9,5 @@ redirect_from:
 
 
 {% include base_path %}
-[View CV here](http://hou-kaiyuan.github.io/files/Kaiyuan_CV.pdf) (Last update: 08/2023)
+[View CV here](http://hou-kaiyuan.github.io/files/kaiyuan_CV.pdf) (Last update: 08/2023)
 
