@@ -34,3 +34,15 @@ author_profile: true
     <i><a href="https://dl.acm.org/doi/abs/10.1145/3583120.3586962">[PDF]</a></i>
     <br clear="left"/>
 </div>
+
+
+<!-- Paper 4 -->
+<div style="margin-bottom: 20px;">
+    <img src="http://hou-kaiyuan.github.io/images/publications/airflow.png" align="left" width="180" height="180" style="margin-right: 20px;"/> 
+    <b>Anemoi: A Low-cost Sensorless Indoor Drone System for Autonomous Mapping of 3D Airflow Fields</b> <br>
+    Stephen Xia, Minghui Zhao, Charuvahan Adhivarahan, <b>Kaiyuan Hou</b>, Yuyang Chen, Jingping Nie, Eugene Wu, Karthik Dantu, Xiaofan Jiang1<br>
+    <i>Proceedings of the 29th Annual International Conference On Mobile Computing And Networking</i> (<b>MobiCom 2023</b>)
+<!--     <i><a href="https://dl.acm.org/doi/abs/10.1145/3583120.3586962">[PDF]</a></i> -->
+    [To appear]
+    <br clear="left"/>
+</div>
