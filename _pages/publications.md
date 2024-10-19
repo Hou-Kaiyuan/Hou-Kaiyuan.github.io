@@ -52,55 +52,8 @@ Recent Publications
 
 Recents Works
 ---
-<style>
-        .video-container {
-            display: flex;
-            justify-content: space-around;
-        }
-        video {
-            width: 30%;
-        }
-</style>
-
-<div class="video-container">
-    <video id="video1" controls>
-        <source src="http://hou-kaiyuan.github.io/files/weather_cycle_comparison_v2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video id="video2" controls>
-        <source src="http://hou-kaiyuan.github.io/files/weather_cycle_v1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <video id="video3" controls>
-        <source src="http://hou-kaiyuan.github.io/files/weather_cycle_v2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div style="margin-bottom: 20px;">
+    <img src="http://hou-kaiyuan.github.io/images/vivify.gif" align="left" width="180" height="180" style="margin-right: 20px;">
+    <b>Visualize the invisible: enhancing language model on understanding sensory information</b><br>
+    <br clear="left"/>
 </div>
-
-<script>
-    const videos = [
-        document.getElementById('video1'),
-        document.getElementById('video2'),
-        document.getElementById('video3')
-    ];
-
-    function syncVideos(event) {
-        const currentVideo = event.target;
-        const currentTime = currentVideo.currentTime;
-        videos.forEach(video => {
-            if (video !== currentVideo) {
-                video.currentTime = currentTime;
-            }
-        });
-    }
-
-    videos.forEach(video => {
-        video.addEventListener('play', () => {
-            videos.forEach(v => v.play());
-        });
-        video.addEventListener('pause', () => {
-            videos.forEach(v => v.pause());
-        });
-        video.addEventListener('timeupdate', syncVideos);
-    });
-</script>
