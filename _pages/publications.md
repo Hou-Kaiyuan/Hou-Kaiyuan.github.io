@@ -1,9 +1,28 @@
 ---
 layout: archive
-title: "Recent Publications"
+title: "Projects"
 permalink: /publications/
 author_profile: true
 ---
+
+
+Work in Progress
+---
+<div style="margin-bottom: 20px;">
+    <img src="http://hou-kaiyuan.github.io/images/vivify.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> 
+    <b>Visualize the Invisible</b>
+    <br>
+    This work explores the use of generative models to create visualizations based on one or more sensor inputs. We address the challenge of inconsistent or abrupt changes in visual output, such as current SOTA models tend to generate cooler/blueish scenes despite increasing temperature readings. (Left: Stable Diffusion; Right: Ours)
+    <br clear="left"/>
+</div>
+
+<div style="margin-bottom: 20px;"> 
+    <img src="http://hou-kaiyuan.github.io/images/rasp.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> <b>Fully Autonomous System with a Reconfigurable Drone and Foundation Models</b> 
+    <br> This work enables language models to interact with a drone by dynamically swapping its payload and surveying the surroundings. It integrates LLM and VLM agents for task understanding, planning, and scene comprehension using a god-view camera. Open-vocabulary detection models and distillation techniques are employed to perform actuations. (Left: drone swapping platform; Right: system pipeline) 
+    <br clear="left"/> 
+</div>
+
+
 
 Recent Publications
 ---
@@ -50,11 +69,3 @@ Recent Publications
 </div>
 
 
-Work in Progress
----
-<div style="margin-bottom: 20px;">
-    <img src="http://hou-kaiyuan.github.io/images/vivify.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> 
-    <b>Visualize the Invisible</b><br>
-    This work explores the use of generative models to create visualizations based on one or more sensor inputs. We address the challenge of inconsistent or abrupt changes in visual output, such as current SOTA models tend to generate cooler/blueish scenes despite increasing temperature readings. 
-    <br clear="left"/>
-</div>
