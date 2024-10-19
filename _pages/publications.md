@@ -50,17 +50,11 @@ Recent Publications
 </div>
 
 
-Recents Works
+Work in Progress
 ---
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-    <!-- Image Container -->
-    <div style="display: flex; margin-right: 20px;">
-        <img src="http://hou-kaiyuan.github.io/images/baseline.gif" width="180" height="180" style="margin-right: 10px;">
-        <img src="http://hou-kaiyuan.github.io/images/ours.gif" width="180" height="180">
-    </div>
-    <!-- Text Content -->
-    <div>
-        <b>Visualize the Invisible</b><br>
-        <span>This work explores the use of generative models to create visualizations based on one or more sensor inputs. We address the challenge of inconsistent or abrupt changes in visual output, such as current SOTA models tend to generate cooler/blueish scenes despite increasing temperature readings. </span>
-    </div>
+<div style="margin-bottom: 20px;">
+    <img src="http://hou-kaiyuan.github.io/images/vivify.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> 
+    <b>Visualize the Invisible</b><br>
+    This work explores the use of generative models to create visualizations based on one or more sensor inputs. We address the challenge of inconsistent or abrupt changes in visual output, such as current SOTA models tend to generate cooler/blueish scenes despite increasing temperature readings. 
+    <br clear="left"/>
 </div>
