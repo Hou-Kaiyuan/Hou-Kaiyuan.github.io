@@ -16,16 +16,18 @@ Work in Progress
     <br clear="left"/>
 </div>
 
-<div style="margin-bottom: 20px;"> 
-    <img src="http://hou-kaiyuan.github.io/images/rasp.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> <b>Fully Autonomous System with a Reconfigurable Drone and Foundation Models</b> 
-    <br> This work enables language models to interact with a drone by dynamically swapping its payload and surveying the surroundings. It integrates LLM and VLM agents for task understanding, planning, and scene comprehension using a god-view camera. Open-vocabulary detection models and distillation techniques are employed to perform actuations. (Left: drone swapping platform; Right: system pipeline) 
-    <br clear="left"/> 
-</div>
-
-
 
 Recent Publications
 ---
+
+<div style="margin-bottom: 20px;"> 
+    <img src="http://hou-kaiyuan.github.io/images/rasp.gif" align="left" width="350" height="180" style="margin-right: 20px;"/> <b>FlexiFly: Interfacing the Physical World with Foundation Models Empowered by Reconfigurable Drone Systems</b><br>
+    <b>Kaiyuan Hou</b>*, Minghui Zhao*, Junxi Xia* (Co-primary Authors),  Yanchen Liu, Stephen Xia, Xiaofan Jiang<br>
+    <i>2025 23rd ACM Conference on Embedded Networked Sensor Systems</i> (<b>SenSys 2025</b>)
+    <i><a href="https://dl.acm.org/doi/10.1145/3715014.3722081">[PDF]</a></i>
+    <br clear="left"/> 
+</div>
+
 
 <!-- Paper 1 -->
 <div style="margin-bottom: 20px;">
