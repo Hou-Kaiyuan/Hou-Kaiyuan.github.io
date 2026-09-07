@@ -1,0 +1,235 @@
+/* ==========================================================================
+   Custom styles: news feed, project cards, publication list, CV blocks
+   ========================================================================== */
+
+$muted-color : $gray;
+$award-color : #b0413e;
+/* News
+   ========================================================================== */
+
+.news {
+  max-height: 22em;
+  overflow-y: auto;
+  padding-right: 0.5em;
+  margin-bottom: 1.5em;
+  border-left: 3px solid $border-color;
+  padding-left: 1em;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    font-size: $type-size-6;
+    line-height: 1.6;
+    margin-bottom: 0.55em;
+  }
+
+  .news__date {
+    display: inline-block;
+    min-width: 6.2em;
+    font-weight: bold;
+    color: $muted-color;
+  }
+}
+
+/* Shared
+   ========================================================================== */
+
+.me {
+  font-weight: bold;
+}
+
+/* Project cards
+   ========================================================================== */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.25em;
+  padding-bottom: 2.25em;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  @media screen and (min-width: 700px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.project__media {
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 1em;
+
+  @media screen and (min-width: 700px) {
+    flex: 0 0 40%;
+    max-width: 400px;
+    margin-right: 1.5em;
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+  }
+
+  img,
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    background-color: #fff;
+  }
+}
+
+.project__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.project__title {
+  margin: 0 0 0.25em;
+  font-size: $type-size-5;
+  line-height: 1.35;
+}
+
+.project__authors {
+  margin: 0 0 0.15em;
+  font-size: $type-size-6;
+  line-height: 1.5;
+  color: $muted-color;
+
+  .me {
+    color: $text-color;
+    font-weight: bold;
+  }
+}
+
+.project__venue {
+  margin: 0 0 0.5em;
+  font-size: $type-size-6;
+
+  .venue {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .award {
+    color: $award-color;
+    font-weight: bold;
+  }
+}
+
+.project__desc {
+  margin: 0 0 0.6em;
+  font-size: $type-size-6;
+  line-height: 1.65;
+}
+
+.project__links {
+  margin: 0;
+  font-size: $type-size-7;
+
+  a {
+    display: inline-block;
+    margin-right: 0.4em;
+    padding: 0.15em 0.6em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    text-decoration: none;
+    color: $link-color;
+    transition: $global-transition;
+
+    &:hover {
+      background-color: $lighter-gray;
+      text-decoration: none;
+    }
+  }
+}
+
+/* Publication list
+   ========================================================================== */
+
+.pub-list {
+  margin: 0 0 1.5em;
+  padding: 0;
+  list-style: none;
+  counter-reset: pub;
+
+  > li {
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 2.4em;
+    font-size: $type-size-6;
+    line-height: 1.6;
+
+    &::before {
+      content: "[" counter(pub) "]";
+      counter-increment: pub;
+      position: absolute;
+      left: 0;
+      color: $muted-color;
+    }
+  }
+
+  .me {
+    font-weight: bold;
+  }
+
+  .venue {
+    font-weight: bold;
+  }
+
+  .award {
+    color: $award-color;
+    font-weight: bold;
+  }
+}
+
+/* Simple two-column fact rows (education, experience)
+   ========================================================================== */
+
+.entry {
+  margin-bottom: 1.1em;
+
+  .entry__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.25em 1em;
+  }
+
+  .entry__where {
+    font-weight: bold;
+  }
+
+  .entry__when {
+    color: $muted-color;
+    font-size: $type-size-6;
+    white-space: nowrap;
+  }
+
+  .entry__what {
+    margin: 0.1em 0 0;
+    font-size: $type-size-6;
+    line-height: 1.6;
+  }
+}
+
+/* Utilities
+   ========================================================================== */
+
+.page__content {
+  h2 {
+    margin-top: 1.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $border-color;
+  }
+}
