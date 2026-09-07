@@ -7,31 +7,37 @@ $award-color : #b0413e;
 /* News
    ========================================================================== */
 
-.news {
-  max-height: 22em;
-  overflow-y: auto;
-  padding-right: 0.5em;
-  margin-bottom: 1.5em;
+ul.news {
+  margin: 0 0 1.5em;
+  padding: 0 0 0 1em;
   border-left: 3px solid $border-color;
-  padding-left: 1em;
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+  list-style: none;
 
   li {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+    column-gap: 0.9em;
     font-size: $type-size-6;
     line-height: 1.6;
-    margin-bottom: 0.55em;
+    margin-bottom: 0.6em;
   }
 
   .news__date {
-    display: inline-block;
-    min-width: 6.2em;
     font-weight: bold;
     color: $muted-color;
+    white-space: nowrap;
+  }
+
+  /* Stack the date above the item on narrow screens */
+  @media screen and (max-width: 500px) {
+    li {
+      display: block;
+      margin-bottom: 0.9em;
+    }
+
+    .news__date {
+      display: block;
+    }
   }
 }
 

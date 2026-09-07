@@ -55,14 +55,14 @@ Selected Projects
 
 <div class="project" markdown="0">
   <div class="project__media">
-    <video src="{{ base_path }}/images/publications/vivar.mp4" poster="{{ base_path }}/images/publications/vivar.jpg" autoplay loop muted playsinline preload="none" aria-label="Side-by-side comparison of generated scenes as a temperature sensor reading rises."></video>
+    <a href="{{ base_path }}/images/publications/airflow.jpg" title="View full-size figure"><img src="{{ base_path }}/images/publications/airflow.jpg" alt="Anemoi: a micro-drone flying a path through a room, with the reconstructed 3D airflow field drawn as arrows, and an inset of the sensorless quadrotor platform." loading="lazy"></a>
   </div>
   <div class="project__body">
-    <h3 class="project__title">Visualizing the Invisible: Generative AR for Multimodal Sensor Data</h3>
-    <p class="project__authors">Y. Guo, <span class="me">Kaiyuan Hou</span>, H. Fu, H. Chen, Z. Yan, G. Xing, X. Jiang</p>
-    <p class="project__venue"><span class="venue">arXiv 2024</span> &middot; related: <span class="venue">MobiCom 2024</span>, <span class="venue">FMSys 2024</span></p>
-    <p class="project__desc">Turning sensor readings into scenes people can actually see. Off-the-shelf generative models drift incoherently as a reading changes — nudge the temperature up and the image turns <em>bluer</em>. An embedding-interpolation method makes generated scenes vary smoothly and faithfully with the underlying signal. (Left: Stable Diffusion; right: ours.)</p>
-    <p class="project__links"><a href="https://arxiv.org/abs/2412.13509">arXiv</a></p>
+    <h3 class="project__title">Anemoi: A Low-Cost Sensorless Indoor Drone System for Automatic Mapping of 3D Airflow Fields</h3>
+    <p class="project__authors">S. Xia, M. Zhao, C. Adhivarahan, <span class="me">Kaiyuan Hou</span>, Y. Chen, J. Nie, E. Wu, K. Dantu, X. Jiang</p>
+    <p class="project__venue"><span class="venue">MobiCom 2023</span></p>
+    <p class="project__desc">Mapping indoor airflow normally means a grid of anemometers or a wind tunnel. Anemoi instead infers the 3D flow field from a micro-drone's own flight behavior — no airflow sensor on board at all — turning a cheap quadrotor into a mobile probe that surveys a room automatically.</p>
+    <p class="project__links"><a href="https://dl.acm.org/doi/pdf/10.1145/3570361.3613292">Paper</a></p>
   </div>
 </div>
 
