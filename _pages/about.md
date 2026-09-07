@@ -18,12 +18,12 @@ News
 ---
 
 <ul class="news" markdown="0">
-  <li><span class="news__date">2026</span><span class="news__text">An undergraduate researcher I mentor had their first paper accepted to <b>ACMSE</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>EmbodiedFly</em>, the extension of <em>FlexiFly</em>, accepted to <b>ACM TIOT</b>.</span></li>
   <li><span class="news__date">2026</span><span class="news__text"><em>Pro<sup>2</sup>Assist</em> (proactive egocentric assistance) accepted to <b>IMWUT 2026</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>T-Gated</em> (occlusion-resilient passenger analytics) accepted to <b>BuildSys 2026</b>.</span></li>
+  <li><span class="news__date">2026</span><span class="news__text"><em>EmbodiedFly</em>, the extension of <em>FlexiFly</em>, accepted to <b>ACM TIOT</b>.</span></li>
   <li><span class="news__date">2026</span><span class="news__text"><em>Moth</em> (low-cost autonomous precision drone landing) accepted to <b>ICRA 2026</b>.</span></li>
+  <li><span class="news__date">2026</span><span class="news__text"><em>T-Gated</em> (occlusion-resilient passenger analytics) accepted to <b>BuildSys 2026</b>.</span></li>
   <li><span class="news__date">Summer 2026</span><span class="news__text">Applied Scientist Intern at <b>Amazon</b> (Applied AI / QuickSight), working on LLM-agent optimization.</span></li>
+  <li><span class="news__date">2026</span><span class="news__text">An undergraduate researcher I mentor had their first paper accepted to <b>ACMSE</b>.</span></li>
   <li><span class="news__date">2025</span><span class="news__text"><em>FlexiFly</em> accepted to <b>SenSys 2025</b>.</span></li>
   <li><span class="news__date">2025</span><span class="news__text"><em>DomAIn</em> received the <b>Best Paper Award</b> at ACM HumanSys 2025.</span></li>
   <li><span class="news__date">Summer 2025</span><span class="news__text">Software Engineer Intern at <b>Ambarella</b>, working on VLM training and efficient inference.</span></li>
@@ -54,34 +54,34 @@ Experience
 
 <div class="entry" markdown="0">
   <div class="entry__head">
-    <span class="entry__where">Amazon &mdash; Applied Scientist Intern</span>
+    <span class="entry__where">Amazon</span>
     <span class="entry__when">Summer 2026</span>
   </div>
-  <p class="entry__what">Applied AI (now QuickSight). Built a framework that distills LLM-orchestrated agents into deterministic workflow agents, cutting inference cost by 37% at comparable task success.</p>
+  <p class="entry__what">Applied Scientist Intern &middot; Applied AI (now QuickSight)</p>
 </div>
 
 <div class="entry" markdown="0">
   <div class="entry__head">
-    <span class="entry__where">Ambarella &mdash; Software Engineer Intern</span>
+    <span class="entry__where">Ambarella</span>
     <span class="entry__when">Summer 2025</span>
   </div>
-  <p class="entry__what">Built a reconfigurable vision&ndash;language model training and serving pipeline with interchangeable vision encoders and language backbones, and studied vision-token pruning and quantization for efficient inference.</p>
+  <p class="entry__what">Software Engineer Intern</p>
 </div>
 
 <div class="entry" markdown="0">
   <div class="entry__head">
-    <span class="entry__where">Columbia University &mdash; Graduate Research Assistant</span>
+    <span class="entry__where">Columbia University</span>
     <span class="entry__when">Sep 2021 &ndash; Present</span>
   </div>
-  <p class="entry__what">Intelligent and Connected Systems Lab (ICSL).</p>
+  <p class="entry__what">Graduate Research Assistant &middot; Intelligent and Connected Systems Lab (ICSL)</p>
 </div>
 
 <div class="entry" markdown="0">
   <div class="entry__head">
-    <span class="entry__where">The Chinese University of Hong Kong &mdash; Research Assistant</span>
+    <span class="entry__where">The Chinese University of Hong Kong</span>
     <span class="entry__when">Jan 2024 &ndash; Jun 2024</span>
   </div>
-  <p class="entry__what">AIoT Lab. Generative AR for sensor data.</p>
+  <p class="entry__what">Research Assistant &middot; AIoT Lab</p>
 </div>
 
 Awards &amp; Service

@@ -205,11 +205,18 @@ ul.news {
 .entry {
   margin-bottom: 1.1em;
 
+  /* Title column wraps on its own; the date stays pinned right */
   .entry__head {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.25em 1em;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    column-gap: 1.25em;
+    align-items: baseline;
+    line-height: 1.5;
+
+    @media screen and (max-width: 500px) {
+      grid-template-columns: 1fr;
+      row-gap: 0.1em;
+    }
   }
 
   .entry__where {
