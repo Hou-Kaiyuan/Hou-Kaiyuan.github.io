@@ -18,6 +18,7 @@ News
 ---
 
 <ul class="news" markdown="0">
+  <li><span class="news__date">2026</span><span class="news__text"><em>EmbodiedFly</em>, the extension of <em>FlexiFly</em>, accepted to <b>ACM TIOT</b>.</span></li>
   <li><span class="news__date">2026</span><span class="news__text"><em>Pro<sup>2</sup>Assist</em> (proactive egocentric assistance) accepted to <b>IMWUT 2026</b>.</span></li>
   <li><span class="news__date">2026</span><span class="news__text"><em>T-Gated</em> (occlusion-resilient passenger analytics) accepted to <b>BuildSys 2026</b>.</span></li>
   <li><span class="news__date">2026</span><span class="news__text"><em>Moth</em> (low-cost autonomous precision drone landing) accepted to <b>ICRA 2026</b>.</span></li>
