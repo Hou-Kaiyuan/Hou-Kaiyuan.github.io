@@ -18,6 +18,19 @@ Selected Projects
 
 <div class="project" markdown="0">
   <div class="project__media">
+    <a href="{{ base_path }}/images/publications/tdbench.jpg" title="View full-size figure"><img src="{{ base_path }}/images/publications/tdbench.jpg" alt="TDBench: a top-down drone image and question are rotated through four 90-degree orientations, and a model counts as correct only if it answers all four consistently." loading="lazy"></a>
+  </div>
+  <div class="project__body">
+    <h3 class="project__title">TDBench: Benchmarking Vision Language Models on Top-Down Image Understanding</h3>
+    <p class="project__authors"><span class="me">Kaiyuan Hou</span>*, M. Zhao*, L. Xu, Y. Fan, X. Jiang</p>
+    <p class="project__venue"><span class="venue">NeurIPS 2026</span></p>
+    <p class="project__desc">VLMs are trained and evaluated almost entirely on front-view images, leaving drone-altitude top-down views largely unmeasured. TDBench is a 2,000-question benchmark over ten task categories, paired with <em>RotationalEval</em>: rotating a top-down image is just a drone yaw change, so a model is credited only if it answers the same question correctly at all four orientations. Humans lose almost nothing under this protocol; across 60 VLMs, accuracy drops by 15 to 26 points.</p>
+    <p class="project__links"><a href="https://arxiv.org/abs/2504.03748">arXiv</a></p>
+  </div>
+</div>
+
+<div class="project" markdown="0">
+  <div class="project__media">
     <a href="{{ base_path }}/images/publications/pro2assist.jpg" title="View full-size figure"><img src="{{ base_path }}/images/publications/pro2assist.jpg" alt="Pro-squared-Assist: a continuous, step-aware proactive assistant guiding a user through a coffee-brewing task through smart glasses." loading="lazy"></a>
   </div>
   <div class="project__body">
@@ -97,6 +110,8 @@ Publications
 
 <ol class="pub-list" markdown="0">
 
+<li><span class="me">K. Hou</span>*, M. Zhao*, L. Xu, Y. Fan, X. Jiang. TDBench: Benchmarking Vision Language Models on Top-Down Image Understanding. <span class="venue">NeurIPS</span>, 2026. <a href="https://arxiv.org/abs/2504.03748">[arXiv]</a></li>
+
 <li>L. Xu, B. Yang, S. Jiang, K. Liu, <span class="me">K. Hou</span>, Y. Fan, H. Chen, Z. Yan, X. Jiang. Pro<sup>2</sup>Assist: Continuous Step-Aware Proactive Assistance with Multimodal Egocentric Perception for Long-Horizon Procedural Tasks. <span class="venue">IMWUT</span>, 2026.</li>
 
 <li><span class="me">K. Hou</span>, X. Di, X. Jiang. T-Gated: A Scene-Aware Framework for Occlusion-Resilient Passenger Analytics in Bus Interiors. <span class="venue">BuildSys</span>, 2026.</li>
@@ -108,8 +123,6 @@ Publications
 <li>L. Xu*, <span class="me">K. Hou</span>*, X. Jiang. Exploring the Capabilities of LLMs for IMU-based Fine-grained Human Activity Understanding. <span class="venue">FMSys</span>, 2025.</li>
 
 <li>Y. Sui, Y. Zhang, Y. Liu, M. Zhao, <span class="me">K. Hou</span>, J. Nie, X. Jiang, S. Xia. DomAIn: Towards Programless Smart Homes. <span class="venue">HumanSys</span>, 2025. <span class="award">Best Paper Award</span></li>
-
-<li><span class="me">K. Hou</span>*, M. Zhao*, L. Xu, Y. Fan, X. Jiang. TDBench: Benchmarking Vision-Language Models in Understanding Top-Down Images. <span class="venue">arXiv:2504.03748</span>, 2025. <a href="https://arxiv.org/abs/2504.03748">[arXiv]</a></li>
 
 <li>Y. Guo, <span class="me">K. Hou</span>, H. Fu, H. Chen, Z. Yan, G. Xing, X. Jiang. Vivar: A Generative AR System for Intuitive Multi-Modal Sensor Data Presentation. <span class="venue">arXiv:2412.13509</span>, 2024. <a href="https://arxiv.org/abs/2412.13509">[arXiv]</a></li>
 
