@@ -19,16 +19,16 @@ News
 
 <ul class="news" markdown="0">
   <li><span class="news__date">Sep 2026</span><span class="news__text"><em>TDBench</em> (top-down image understanding in VLMs) accepted to <b>NeurIPS 2026</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>Pro<sup>2</sup>Assist</em> (proactive egocentric assistance) accepted to <b>IMWUT 2026</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>EmbodiedFly</em>, the extension of <em>FlexiFly</em>, accepted to <b>ACM TIOT</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>Moth</em> (low-cost autonomous precision drone landing) accepted to <b>ICRA 2026</b>.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text"><em>T-Gated</em> (occlusion-resilient passenger analytics) accepted to <b>BuildSys 2026</b>.</span></li>
+  <li><span class="news__date">Jun 2026</span><span class="news__text"><em>Pro<sup>2</sup>Assist</em> (proactive egocentric assistance) accepted to <b>IMWUT 2026</b>.</span></li>
   <li><span class="news__date">Summer 2026</span><span class="news__text">Applied Scientist Intern at <b>Amazon</b> (Applied AI / QuickSight), working on LLM-agent optimization.</span></li>
-  <li><span class="news__date">2026</span><span class="news__text">An undergraduate researcher I mentor had their first paper accepted to <b>ACMSE</b>.</span></li>
-  <li><span class="news__date">2025</span><span class="news__text"><em>FlexiFly</em> accepted to <b>SenSys 2025</b>.</span></li>
-  <li><span class="news__date">2025</span><span class="news__text"><em>DomAIn</em> received the <b>Best Paper Award</b> at ACM HumanSys 2025.</span></li>
+  <li><span class="news__date">Apr 2026</span><span class="news__text"><em>EmbodiedFly</em>, the extension of <em>FlexiFly</em>, accepted to <b>ACM TIOT</b>.</span></li>
+  <li><span class="news__date">Apr 2026</span><span class="news__text"><em>T-Gated</em> (occlusion-resilient passenger analytics) accepted to <b>BuildSys 2026</b>.</span></li>
+  <li><span class="news__date">Mar 2026</span><span class="news__text">An undergraduate researcher I mentor had their first paper accepted to <b>ACMSE</b>.</span></li>
+  <li><span class="news__date">Jan 2026</span><span class="news__text"><em>Moth</em> (low-cost autonomous precision drone landing) accepted to <b>ICRA 2026</b>.</span></li>
   <li><span class="news__date">Summer 2025</span><span class="news__text">Software Engineer Intern at <b>Ambarella</b>, working on VLM training and efficient inference.</span></li>
-  <li><span class="news__date">2024</span><span class="news__text"><em>EmbodiedRDA</em> received the <b>Best Demo Runner-Up</b> award at ACM MobiCom 2024.</span></li>
+  <li><span class="news__date">Mar 2025</span><span class="news__text"><em>DomAIn</em> received the <b>Best Paper Award</b> at ACM HumanSys 2025.</span></li>
+  <li><span class="news__date">Jan 2025</span><span class="news__text"><em>FlexiFly</em> accepted to <b>SenSys 2025</b>.</span></li>
+  <li><span class="news__date">Sep 2024</span><span class="news__text"><em>EmbodiedRDA</em> received the <b>Best Demo Runner-Up</b> award at ACM MobiCom 2024.</span></li>
 </ul>
 
 Education
